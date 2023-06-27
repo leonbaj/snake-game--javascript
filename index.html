@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="snakeApp.css"/> <!-- linking stylesheet to html file-->>
+
+</head>
+
+<body>
+    <!-- declares speed for game, asking for input type number and using the button. gives default value of 5 while also requesting a min and max speed. -->
+    Speed:
+    <input type="number" id="gameSpeed" value="5" min="1" max="9" step="1"/>
+    <input type="button" value="Start" id="gameStart"/>
+
+    <br/>
+    <br/>
+    <div>
+        <canvas id="gameArea"></canvas>
+
+
+    </div>
+    <div>
+        <div class= "relative"></div>
+
+    </div>
+
+    <script src= "snakeApp.js"></script>  <!--Script tag which allows to use snakeApp.js   -->
+</body>
+
+</html>
